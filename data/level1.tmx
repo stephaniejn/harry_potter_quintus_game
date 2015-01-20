@@ -1988,8 +1988,6 @@
  <layer name="collision" width="86" height="23">
   <data>
    <tile gid="109"/>
-   <tile gid="125"/>
-   <tile gid="125"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2070,8 +2068,10 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="125"/>
-   <tile gid="125"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="109"/>
    <tile gid="109"/>
    <tile gid="0"/>
