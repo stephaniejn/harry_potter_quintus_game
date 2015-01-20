@@ -3,7 +3,7 @@
  <tileset firstgid="1" name="tiles_map" tilewidth="32" tileheight="32">
   <image source="../images/tiles_map.png" width="512" height="512"/>
  </tileset>
- <layer name="background" width="86" height="23">
+ <layer name="background" width="86" height="23" visible="0">
   <data>
    <tile gid="109"/>
    <tile gid="109"/>
@@ -1988,6 +1988,8 @@
  <layer name="collision" width="86" height="23">
   <data>
    <tile gid="109"/>
+   <tile gid="125"/>
+   <tile gid="125"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -2068,10 +2070,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="125"/>
+   <tile gid="125"/>
    <tile gid="109"/>
    <tile gid="109"/>
    <tile gid="0"/>
