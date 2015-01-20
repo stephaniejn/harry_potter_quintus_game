@@ -1,0 +1,19 @@
+{
+    sprite1name: {
+      tilew: 40
+      tileh: 40,
+      sx: 0,
+      sy: 0,
+      w: 160,
+      h: 80
+    },
+
+    sprite2name: {
+      tilew: 40,
+      tileh: 40,
+      sx: 80,
+      sy: 0,
+      w: 160,
+      h: 80
+    }
+}
