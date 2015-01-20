@@ -183,17 +183,17 @@ Q.scene("level1",function(stage) {
 
     //level assets. format must be as shown: [[ClassName, params], .. ]
     var levelAssets = [
-    ["GroundEnemy", {x: 18*70, y: 6*70, asset: "slime.png"}],
-    ["GroundEnemy", {x: 5*70, y: 6*70, asset: "slime.png"}],
-    ["GroundEnemy", {x: 32*70, y: 6*70, asset: "slime.png"}],
-    ["VerticalEnemy", {x: 800, y: 120, rangeY: 70, asset: "fly.png"}],
-    ["VerticalEnemy", {x: 1500, y: 120, rangeY: 70, asset: "fly.png"}],
-    ["VerticalEnemy", {x: 2700, y: 120, rangeY: 70, asset: "fly.png"}],
-    ["VerticalEnemy", {x: 1600, y: 400, rangeY: 60, asset: "fly.png"}],
-    ["GroundEnemy", {x: 18*70, y: 20*70, asset: "slime.png"}],
-    ["GroundEnemy", {x: 8*70, y: 70, asset: "slime.png"}],
-    ["GroundEnemy", {x: 28*70, y: 120, asset: "slime.png"}],
-    ["GroundEnemy", {x: 12*70, y: 70, asset: "slime.png"}],
+    ["GroundEnemy", {x: 18*70, y: 6*70, asset: "voldemort.png"}],
+    ["GroundEnemy", {x: 5*70, y: 6*70, asset: "voldemort.png"}],
+    ["GroundEnemy", {x: 32*70, y: 6*70, asset: "voldemort.png"}],
+    ["VerticalEnemy", {x: 800, y: 120, rangeY: 70, asset: "dementor.png"}],
+    ["VerticalEnemy", {x: 1500, y: 120, rangeY: 70, asset: "dementor.png"}],
+    ["VerticalEnemy", {x: 2700, y: 120, rangeY: 70, asset: "dementor.png"}],
+    ["VerticalEnemy", {x: 1600, y: 400, rangeY: 60, asset: "dementor.png"}],
+    ["GroundEnemy", {x: 18*70, y: 20*70, asset: "voldemort.png"}],
+    ["GroundEnemy", {x: 8*70, y: 70, asset: "voldemort.png"}],
+    ["GroundEnemy", {x: 28*70, y: 120, asset: "voldemort.png"}],
+    ["GroundEnemy", {x: 12*70, y: 70, asset: "voldemort.png"}],
     ["broomstick", {x: 75, y: 450}],
 
     ["Snitch", {x: 300, y: 60}],
@@ -268,7 +268,7 @@ Q.scene("level1",function(stage) {
 
 
         //load assets
-        Q.load("tiles_map.png, player.png, fly.png, slime.png, snitch.png, broomstick.png, level1.tmx", function() {
+        Q.load("tiles_map.png, player.png, dementor.png, voldemort.png, snitch.png, broomstick.png, level1.tmx", function() {
           Q.sheet("tiles","tiles_map.png", { tilew: 32, tileh: 32});
           Q.stageScene("level1");
           Q.stageScene("gameStats",1);
